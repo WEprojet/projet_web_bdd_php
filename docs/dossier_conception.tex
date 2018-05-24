@@ -822,7 +822,7 @@
 			\image{0.35}{images/conception/page_admin_musique}{Mockup - Page gestion musique}
 
 			\begin{paragraphe}
-				Il y a quatre formulaires. Un premier qui permet de modifier les données d'un morceau de musique, le second pour ajouter des artistes à une msuique sélectionnée, un troisième pour ajouter la musique à un ou plusieurs albums. Le quatrième formulaire permet d'associé un ou plusieurs genres au morceau de musique. 
+				Il y a quatre formulaires. Un premier qui permet de modifier les données d'un morceau de musique, le second pour ajouter des artistes à une musique sélectionnée, un troisième pour ajouter la musique à un ou plusieurs albums. Le quatrième formulaire permet d'associé un ou plusieurs genres au morceau de musique. 
 			\end{paragraphe}
 
 			\begin{paragraphe}
@@ -891,7 +891,7 @@
 
 			\begin{paragraphe}
 				Si clic sur le bouton << ajouter album >> \\
-				Alors effectuer l'acion ajoutAlbumMusique(musique, album).
+				Alors effectuer l'action ajoutAlbumMusique(musique, album).
 			\end{paragraphe}
 
 			\begin{paragraphe}
@@ -916,7 +916,7 @@
 
 			\begin{paragraphe}
 				Si clic sur le bouton << ajouter genre >> \\
-				Alors effetuer l'action ajoutGenreMusique(musique, genre).
+				Alors effectuer l'action ajoutGenreMusique(musique, genre).
 			\end{paragraphe}
 
 			\begin{paragraphe}
@@ -1062,11 +1062,11 @@
 			\end{paragraphe}
 
 			\begin{paragraphe}
-				La page de gestion des comptes utilisateurs récupère la liste de tous les utilisateurs déjà enregistrés dans la base de données, en affichant le nm de l'utilisateur et son statut (administrateur ou utilisateur normal).
+				La page de gestion des comptes utilisateurs récupère la liste de tous les utilisateurs déjà enregistrés dans la base de données, en affichant le nom de l'utilisateur et son statut (administrateur ou utilisateur normal).
 			\end{paragraphe}
 
 			\begin{paragraphe}
-				Il y aura un bouton permettant de changer le statut de l'utilisateur << Administrateur >> vers << Utilisateur normal >> et inversement << Utilisateur normal >> vers << Administrateur >>. Le tableau << Liste des utilisateurs >> est rempli par la fonction getListeUtilisateur().
+				Il y a un bouton permettant de changer le statut de l'utilisateur << Administrateur >> vers << Utilisateur normal >> et inversement << Utilisateur normal >> vers << Administrateur >>. Le tableau << Liste des utilisateurs >> est rempli par la fonction getListeUtilisateur().
 			\end{paragraphe}
 
 			\image{0.35}{images/conception/page_admin_compte}{Mockup - Page gestion compte utilisateur}
@@ -1077,12 +1077,12 @@
 
 			\begin{paragraphe}
 				Si clic sur le bouton << Ajouter >> \\
-				Alors effectuer l'action ajouterUtilisateur() si les paramètres entrée dans le formulaire sont valides, recherge ensuite la page après avoir indiqué que l'utilisateur a bien été ajouté. \\
+				Alors effectuer l'action ajouterUtilisateur() si les paramètres entrée dans le formulaire sont valides, recharge ensuite la page après avoir indiqué que l'utilisateur a bien été ajouté. \\
 				Sinon signal que les paramètres entrés sont invalides.
 			\end{paragraphe}
 
 			\begin{paragraphe}
 				Si clic sur le bouton << Changer Statut >> \\
-				Alors effectuer l'action changerStatutUtilisateur() si les paramètres entrés dans le formulaire sont valide, recherge ensuite la page après avoir indiqué que le statut a bien été changé.
+				Alors effectuer l'action changerStatutUtilisateur() si les paramètres entrés dans le formulaire sont valide, recharge ensuite la page après avoir indiqué que le statut a bien été changé.
 			\end{paragraphe}
 
