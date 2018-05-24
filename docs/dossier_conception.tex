@@ -156,7 +156,7 @@
 			\item adminGestionAlbum.php : Permet de gérer les différents albums, en ajoutant ou en modifiant leurs données. Ainsi que de relier un ou plusieurs artistes à un album.
 			\item adminGestionMusique.php : Permet de gérer les différents morceaux de musique, en ajoutant ou en modifiant leurs données. Ainsi que de relier un ou plusieurs artistes à une musique, relier un ou plusieurs albums à un musique et de relier un ou plusieurs genres à une musique.
 			\item adminFormGenre.php : Permet d'ajouter ou de modifier un genre à un morceau de musique ou un single.
-			\item adminFormRecompense.php : Permet d'ajuter une récompense à un artiste.
+			\item adminFormRecompense.php : Permet d'ajouter une récompense à un artiste.
 			\item adminGestionUtilisateur.php : Permet à un administrateur préalablement identifié d'ajouter un utilisateur et/ou de changer le statut d'un utilisateur (administrateur ou non).
 		\end{itemize}
 	\end{paragraphe}
@@ -192,7 +192,7 @@
 					\item getGroupe(nomGroupe) si un groupe a été sélectionné.
 					\item getMusique(nomMusique) si un musique a été sélectionné.
 				\end{itemize}
-				Les mêmes fonctions est utilisées lors d'un clic sur la photo d'un nouvel artiste : getArtiste(nomArtiste) et lors d'un clic d'un album sorti cette semaine : getAlbum(nomAlbum).
+				Les mêmes fonctions sont utilisées lors d'un clic sur la photo d'un nouvel artiste : getArtiste(nomArtiste) et lors d'un clic d'un album sorti cette semaine : getAlbum(nomAlbum).
 			\end{paragraphe}
 
 			\begin{paragraphe}
@@ -203,7 +203,7 @@
 
 			\begin{paragraphe}
 				Si une recherche est entrée \\
-				Alors affichage des résultat correspondants sous forme de liens prévisionnels cliquables.
+				Alors affichage des résultat correspondant sous forme de liens prévisionnels cliquables.
 			\end{paragraphe}
 
 			\begin{paragraphe}
@@ -238,15 +238,15 @@
 					\item Type
 					\item Date
 				\end{itemize}
-				La colonne << Nom >> contiendra le nom des albums, morceaux de musique, groupes ou artistes correspondants à la recherche entrée.\par
-				La colonne << Type >> indiquera de quel type est la recherche : album, morceau, groupe ou artiste.\par
-				La colonne << Date >> affichera, seon le cas, la date de sortie de la musique ou de l'album, la date de naissance de l'artiste ou la date de formation du groupe.
+				La colonne << Nom >> contient le nom des albums, morceaux de musique, groupes ou artistes correspondants à la recherche entrée.\par
+				La colonne << Type >> indique de quel type est la recherche : album, morceau, groupe ou artiste.\par
+				La colonne << Date >> affiche, selon le cas, la date de sortie de la musique ou de l'album, la date de naissance de l'artiste ou la date de formation du groupe.
 			\end{paragraphe}
 
 			\image{0.26}{images/conception/page_resultat_recherche}{Mockup - Page résultat}
 
 			\begin{paragraphe}
-				Chaque résultat de la colonne << Nom >> sera cliquable, et sur clic, dirigera vers la page dédiée au résultat (i.e : la page de l'album, du morceau, du groupe ou de l'artiste correspondant).
+				Chaque résultat de la colonne << Nom >> est cliquable, et sur clic, dirige vers la page dédiée au résultat (i.e : la page de l'album, du morceau, du groupe ou de l'artiste correspondant).
 			\end{paragraphe}
 
 		\subsubsection{Page description artiste / groupe}
@@ -271,8 +271,8 @@
 		\subsubsection{Page description album d'un artiste}
 
 			\begin{paragraphe}
-				La page affichera le nom de l'album avec son descriptif, l'image de l'album, la liste des morceaux de musique représentée dans un tableau, les commentaires des utilisateurs et leurs notes associées à l'album. \par
-				Si l'utilisateur non connecté souhaite entrer un commentaire et donner une note à un album ou à un morceau de musique, il faudra qu'il se connecte d'abord. Il y a donc le << connectez-vous >>.
+				La page affiche le nom de l'album avec son descriptif, l'image de l'album, la liste des morceaux de musique représentée dans un tableau, les commentaires des utilisateurs et leurs notes associées à l'album. \par
+				Si l'utilisateur non connecté souhaite entrer un commentaire et donner une note à un album ou à un morceau de musique, il faut qu'il se connecte d'abord. Il y a donc le << connectez-vous >>.
 			\end{paragraphe}
 
 			\image{0.25}{images/conception/page_album_non_connecter}{Mockup - Page album non connecté}
